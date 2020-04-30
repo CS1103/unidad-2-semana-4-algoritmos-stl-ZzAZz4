@@ -10,7 +10,6 @@ std::vector<T> extract(string str)
     stringstream ss;
     ss << str;
 
-    /* Running loop till the end of the stream */
     string temp;
     T found;
     std::vector<T> list;
